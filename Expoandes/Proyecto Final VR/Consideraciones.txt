@@ -1,0 +1,33 @@
+###############################################################################################################
+#Adjunto encontraran el juego con el mecanismo de randomizacion y los (3) prefabs que ya elabore para probarlo#
+#Tienen estas instrucciones de como hacer los prefabs                                                         #
+#PORFAVOR y REALMENTE PORFAVOR no toquen los Scripts pls                                                      #
+###############################################################################################################
+
+
+
+Niñas para la elaboracion de prefabs sigan estos pasos,
+ustedes tendran que crear una nueva carpeta dentro del directorio raiz de un proyecto nuevo, en esta carpeta ustedes guardaran los
+prefabs que estan haciendo, estan obligadas a por cada prefab que hagan hacer su version apta para la vista anisotropica, 
+esto quiere decir que tendran que hacer la version noormal que tiene ¨ciudad¨ a ambos lados, y la version de la vista anisotropica
+que solo tiene ciudad al lado izquierdo(esto para que la ciudad del lado derecho no interrumpa la camara), posteriormente guardaran
+cada version en una carpeta distinta dentro de la carpeta original( o sea tendran 2 carpetas  dentro de la que crearon, una para 
+prefabs de modo normal y una para prefabs de modo anisotropico), recuerden que cada uno de los prefabs debe ser retrocompatible 
+con cualquiera que le anteceda, o sea que es como si fuera un LEGO(#Patrociname) tiene que encajar en cualquier parte sin hacer el 
+jugador perder(poodria darse el caso que un prefab tenga un oobstaculo al final a la izquierda y el siguiente un obstaculo a la 
+derecha justo al inicio y no hay manera de esquivarlos porque no hay espacio, por esto un truco que les doy es poner los obstaculos centrados)
+Tendran que trabajar sobre el prefab llamado "AAAprefab_Base" y tendran que sustituir el primer tramo de carretera (que tiene una zebra) por tramos normales
+al momento de nombrar los prefabs tienen que ser masomenos rigurosas con el nombre vigilando que NINGUN prefab quede en la lista por encima de "AAAprefab_Base", esto es de suma importancia ya que este es el valor base de spawn y donde otro prefab lo sustituyera seria una catastrofe para el juego (bugs muy lindos ocurren :V)
+otra consideracion que tienen que tener es que no intenten girar(gira el objeto de una manera extraña y daña las distancias y posicionamiento, mecanismos bajo los cuales funciona el sistema de randomizacion) todo el prefab intentando crear combinaciones de uno o de otro , lastimosamente para esto tendran que crear mas prefabs y modificalos. :(
+
+
+
+Pueden usar cualquiera de los elementos que tenemos en los prefabs, por suerte hay muchos, si quieren poner alguno mas (como los edificios que encontro Juli) pueden hacerlo pero tiene que listarlos en un bloc de notas con su link de descarga para añadirlos al proyecto.
+
+Si agregan objetos de fuentes externas ASEGURENSE que  estos tengan collision box, si no sencillamente el carro los traspasará
+
+Por el momento estuve buscando una manera de crear el script de modificadores de velocidad segun el tramo (o sea que si huibera un tramo con 50  y el otro con 60 se modifique el death ) pero no lo pude hacer asi que supongo la vel maxima sera de un valor estatico  hasta nuevo aviso :(
+
+
+
+Enserio muchas gracias niñas por todo, y animo ya estamos a nada de terminar esta vaina, #ZeLexHapresiaMutxo xD xD, :* .
